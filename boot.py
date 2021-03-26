@@ -9,8 +9,6 @@ import gc
 gc.collect()
 import esp
 esp.osdebug(None)
-
 from machine import Pin
-
 led = Pin(2, Pin.OUT)
 
