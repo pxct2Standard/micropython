@@ -60,7 +60,7 @@ def fier(np):
     np.write()
     np[7] = (0, 0, 255, 128)
     np.write()
-def fünf(np):
+def funf(np):
     n = np.n
     np[8] = (0, 0, 255, 128)
     np.write()
@@ -102,7 +102,7 @@ def fier2(np):
     np.write()
     np[21] = (0, 0, 255, 128)
     np.write()
-def fünf2(np):
+def funf2(np):
     n = np.n
     np[22] = (0, 0, 255, 128)
     np.write()
@@ -150,7 +150,7 @@ def fier3(np):
     np.write()
     np[37] = (0, 0, 255, 128)
     np.write()
-def fünf3(np):
+def funf3(np):
     n = np.n
     np[38] = (0, 0, 255, 128)
     np.write()
@@ -192,7 +192,7 @@ def fier4(np):
     np.write()
     np[51] = (0, 0, 255, 128)
     np.write()
-def fünf4(np):
+def funf4(np):
     n = np.n
     np[52] = (0, 0, 255, 128)
     np.write()
@@ -242,9 +242,9 @@ while True:
   fierval = request.find('/?fier=on')
   if fierval == 6:
     fier(np)
-  fünfval = request.find('/?fünf=on')
-  if fünfval == 6:
-    fünf(np)
+  funfval = request.find('/?funf=on')
+  if funfval == 6:
+    funf(np)
   sechsval = request.find('/?sechs=on')
   if sechsval == 6:
     sechs(np)
@@ -263,9 +263,9 @@ while True:
   fier2val = request.find('/?fier2=on')
   if fier2val == 6:
     fier2(np)
-  fünf2val = request.find('/?fünf2=on')
-  if fünf2val == 6:
-    fünf(np)
+  funf2val = request.find('/?funf2=on')
+  if funf2val == 6:
+    funf2(np)
   sechs2val = request.find('/?sechs2=on')
   if sechs2val == 6:
     sechs2(np)
@@ -284,9 +284,9 @@ while True:
   fier3val = request.find('/?fier3=on')
   if fier3val == 6:
     fier3(np)
-  fünf3val = request.find('/?fünf3=on')
-  if fünf3val == 6:
-    fünf3(np)
+  funf3val = request.find('/?funf3=on')
+  if funf3val == 6:
+    funf3(np)
   sechs3val = request.find('/?sechs3=on')
   if sechs3val == 6:
     sechs3(np)
@@ -305,9 +305,9 @@ while True:
   fier4val = request.find('/?fier4=on')
   if fier4val == 6:
     fier4(np)
-  fünf4val = request.find('/?fünf4=on')
-  if fünf4val == 6:
-    fünf4(np)
+  funf4val = request.find('/?funf4=on')
+  if funf4val == 6:
+    funf4(np)
   sechs4val = request.find('/?sechs4=on')
   if sechs4val == 6:
     sechs4(np)
